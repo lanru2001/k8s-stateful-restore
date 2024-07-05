@@ -82,4 +82,3 @@ spec:
           storage: 1Gi
       storageClassName: gp2
       volumeName: restore-postgres
-Azeez.Olanrewaju@DCITSYS01-L statef
