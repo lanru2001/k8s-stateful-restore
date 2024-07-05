@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pgdb
+  labels:
+    app: pgdb
+spec:
+  ports:
+    - name: postgres
+      port: 5432
+  clusterIP: None
+  selector:
+    app: pgdb
